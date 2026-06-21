@@ -8,11 +8,16 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Petro-Marin Industrial",
-  description: "Precision engineering and integrated logistics for offshore and onshore energy infrastructure in Sub-Saharan Africa.",
+  title: "Fort-Knox Industrial",
+  description:
+    "Precision engineering and integrated logistics for offshore and onshore energy infrastructure in Sub-Saharan Africa.",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en" className={`${geist.variable} antialiased`}>
       <body>{children}</body>

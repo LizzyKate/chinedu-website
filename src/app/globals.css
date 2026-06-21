@@ -28,6 +28,15 @@
   --color-pm-contact-gray: #9aa6b3;
 }
 
-* { box-sizing: border-box; }
-body { margin: 0; }
-::placeholder { color: #9aa6b2; }
+@theme {
+  --breakpoint-3xl: 1920px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+::placeholder {
+  color: #9aa6b2;
+}
